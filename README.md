@@ -28,11 +28,13 @@
 ```bash
 git clone https://github.com/MikeHorn-git/EmeraldTablets
 cd EmeraldTablets/
-make all # Headers
-make tablet # Example
 ```
 
 ## Headers
+
+```bash
+make all
+```
 
 ### Format
 
@@ -56,7 +58,11 @@ struct syscall_entry {
 
 ## Tablet
 
-Userland syscall table.
+```bash
+make tablet
+```
+
+Userland syscall table helper.
 
 ```bash
 Usage: ./tablet [-h] [-e ENTRY] [-i INT] [-n NAME]
